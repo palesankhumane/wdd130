@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Trade+Winds&display=swap');
+
 header {
     background-color: #05a9ee;
     color: black;
@@ -6,13 +8,17 @@ header {
 body {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
+    padding: 0;
+    font-size: 22px;
     text-align: center;
     background-color: #e0fafd;
     color: black; 
 }
 
+  h2 {
+  margin: 0;
+  }
+  
 
   nav  {
     text-align: center;
@@ -21,11 +27,12 @@ body {
     color: #85d7f6;
   }
 
-  nav a {
+nav a {
     text-align: center;
     text-decoration: none;
     background-color: #ef842b;
     color: #85d7f6;
+    padding: 35px;
   }
 
   nav a:link, nav a:visited {
@@ -59,6 +66,9 @@ body {
   .home-title {
     background-color: #05a9ee;
     color: black;
+    font-family: 'Trade Winds', 'Montserrat', 'Roboto';
+    font-size: 2em;
+    margin-top: 10px;
   }
   h4 {
     background-color: #e0fafd;
@@ -69,12 +79,21 @@ body {
     background-color: #ef842b;
     color: #85d7f6;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
   }
 
-  .book, .join {
-    background-color: #ffdfb5;
-    color: #85d7f6;
+  .card-img {
+    border-color: black;
+    border: 10px;
   }
+
+  main section img {
+    box-sizing: border-box;
+  }
+
   .book:hover, .join.book:hover {
     background-color: #ffdfb5;
     color: #85d7f6;
@@ -82,25 +101,43 @@ body {
 
   .msg h2 {
     background-color: #85d7f6;
-    color: #05a9ee;
+    color: #ef842b;
+    line-height: 1.5em;
+  }
+
+  .msg {
+    padding: 35px;
   }
 
   .msg p {
     background-color: #85d7f6;
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
   }
+
+  .rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+  }  
 
   .logo {
     width: 80px;
   }
 
+  #logo_link {
+    padding-top: 5px;
+  }  
+
   .icon {
     width: 80px;
+    padding-top: 10px;
   }
   
 footer {
     background-color: #ef842b;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
   }
 
   footer a {
@@ -121,6 +158,10 @@ footer {
 
   footer p a:hover {
     text-decoration: underline;
+  }
+
+  footer .social img{
+    padding-top: 15px;
   }
 
  
