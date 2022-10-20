@@ -35,9 +35,6 @@ nav a {
     padding: 35px;
   }
 
-  nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-  }
   nav a:hover {
     background-color: #ffdfb5;
     color: #85d7f6;
